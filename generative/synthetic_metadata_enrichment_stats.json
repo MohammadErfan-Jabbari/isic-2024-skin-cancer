@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-11-26T18:43:40.497029",
+  "seed": 42,
+  "n_real_malignant": 343,
+  "n_synthetic": 6000,
+  "n_metadata_cols": 48,
+  "sampling_method": "random_with_replacement",
+  "output_file": "DeepLearning/Kaggle/generative/data/synthetic_malignant_metadata_enriched.csv"
+}

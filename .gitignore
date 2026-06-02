@@ -1,0 +1,47 @@
+# ─── Data (ISIC 2024 — NOT redistributable; download from Kaggle, see DATA.md) ───
+data/
+*.hdf5
+*.h5
+*.csv
+!results/sample/*.csv          # except the small committed samples
+!stacking/feature_list.txt
+
+# ─── Model weights & training artifacts (regenerate via the pipelines) ───
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.pkl
+*.npy
+results/
+!results/sample/
+
+# ─── Generative checkpoints / synthetic blobs ───
+generative/data/
+generative/checkpoints/
+generative/models/
+generative/results/
+
+# ─── Presentation build deps ───
+reports/presentation/node_modules/
+reports/presentation/.slidev/
+
+# ─── Python ───
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# ─── OS / editor ───
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ─── Logs / scratch ───
+*.log
+output.txt
