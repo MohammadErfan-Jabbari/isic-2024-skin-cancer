@@ -1,5 +1,5 @@
-# Finding 343 Cancers in 400,959 Photos
-#### Skin-lesion malignancy detection (ISIC 2024) from dermoscopic images + clinical metadata, under extreme class imbalance
+# ISIC 2024 — Detecting Skin Malignancy under Extreme Class Imbalance
+#### Malignancy detection from dermoscopic images + clinical metadata — 343 malignant lesions among 400,959
 
 A classifier that labels every lesion benign scores **99.91 % accuracy** — and never catches a single
 cancer. With malignant cases at **343 in 400,959 (≈ 1 : 1168)**, accuracy is meaningless; the entire
