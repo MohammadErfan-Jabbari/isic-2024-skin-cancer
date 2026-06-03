@@ -8,7 +8,9 @@
   npm run export         # → PDF
   ```
   Covers data-imbalance handling, preprocessing/augmentation, model justification, and
-  explainability. The explainability section is a known stub.
+  explainability. The explainability analysis (Grad-CAM + SHAP) is written up in
+  [`../docs/explainability.md`](../docs/explainability.md); the deck's explainability *slide* is
+  lighter than that doc.
 
 - **`ERRATA.md`** — post-submission corrections. **Read this alongside the slides** — two slide
   figures present numbers that the post-hoc verification corrected.
